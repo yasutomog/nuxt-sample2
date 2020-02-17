@@ -77,7 +77,7 @@ export default {
   generate: {
     routes() {
       const careers = axios
-        .get("https://your.microcms.io/api/v1/careers", {
+        .get("https://yasutomog.microcms.io/api/v1/careers", {
           headers: { "X-API-KEY": process.env.API_KEY }
         })
         .then(res => {
@@ -86,7 +86,7 @@ export default {
           });
         });
       const posts = axios
-        .get("https://your.microcms.io/api/v1/posts", {
+        .get("https://yasutomog.microcms.io/api/v1/posts", {
           headers: { "X-API-KEY": process.env.API_KEY }
         })
         .then(res => {
