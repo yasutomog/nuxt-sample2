@@ -7,6 +7,9 @@
         </h2>
       </nuxt-link>
     </div>
+    <nuxt-link to="/form">
+      Form page
+    </nuxt-link>
   </div>
 </template>
 
