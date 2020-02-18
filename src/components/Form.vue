@@ -8,9 +8,7 @@
       <p>
         <label>Message: <textarea name="message" placeholder="msg"></textarea></label>
       </p>
-      <p>
-        <label>Your Email: <div data-netlify-recaptcha="true"></div></label>
-      </p>
+      <div data-netlify-recaptcha="true"></div>
       <p>
         <button type="submit">Send</button>
       </p>
