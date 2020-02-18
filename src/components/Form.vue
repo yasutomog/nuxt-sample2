@@ -6,10 +6,10 @@
         <label>Your Name: <input type="text" name="name" placeholder="name"></label>
       </p>
       <p>
-        <label>Your Email: <input type="email" name="email" placeholder="email"></label>
+        <label>Message: <textarea name="message" placeholder="msg"></textarea></label>
       </p>
       <p>
-        <label>Message: <textarea name="message" placeholder="msg"></textarea></label>
+        <label>Your Email: <div data-netlify-recaptcha="true"></div></label>
       </p>
       <p>
         <button type="submit">Send</button>
